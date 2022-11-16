@@ -1,0 +1,160 @@
+.room1 {
+   
+    background-repeat: no-repeat, repeat;
+    z-index: 50;
+    float: right;
+}
+
+.room2{
+    background-repeat: no-repeat, repeat;
+    z-index: 50;
+    float: right;
+}
+
+.room3{
+    background-repeat: no-repeat, repeat;
+    z-index: 50;
+    float: right;
+}
+
+.image1 {
+    background-image: url(/img/image-island.png);
+    width: 1261px;
+    min-height: 1007px;
+    max-height: 1007px;
+    float: right;
+    background-size: cover;
+}
+
+.image2 {
+    background-image: url(/img/Central-Hall.jpg);
+    width: 1261px;
+    min-height: 1107px;
+    max-height: 1107px;
+    float: right;
+    background-size: cover;
+}
+
+.image3 {
+    background-image: url(/img/CodeDoor1.png);
+    width: 1350px;
+    min-height: 629px;
+    max-height: 629px;
+    float: right;
+    background-size: cover;
+}
+
+.image4 {
+    background-image: url(/img/Clue1.png);
+    width: 1003px;
+    min-height: 779px;
+    max-height: 779px;
+    float: right;
+    background-size: cover;
+}
+
+.image5 {
+    background-image: url(/img/Clue2.png);
+    width: 1350px;
+    min-height: 629px;
+    max-height: 629px;
+    float: right;
+    background-size: cover;
+}
+
+.image6 {
+    background-image: url(/img/WingB.jpg);
+    width: 1261px;
+    height: 1007px;
+    float: right;
+    background-size: cover;
+}
+
+.image7 {
+    background-image: url(/img/PrisonCell1.png);
+    width: 1300px;
+    height: 867px;
+    float: right;
+    background-size: cover;
+}
+
+/* placing of the keypad at the codedoor */
+.keypad {
+    height: 700px;
+    width: 450px;
+    border: 5px solid black;
+    background-color: #c3c3c3;
+    margin-top: 20px;
+}
+
+.screen {
+    width: 95%;
+    height: 75px;
+    background-color: black;
+    margin: auto;
+    margin-top: 40px;
+    color: lime;
+    font-size: 40px;
+    text-align: center;
+    padding-top: 25px;
+}
+
+.number-key {
+    width: 75px;
+    height: 75px;
+    background-color: white;
+    display: block;
+    float: left;
+    margin-left: 50px;
+    margin-top: 50px;
+    font-size: 45px;
+    font-family: 'Courier New', Courier, monospace;
+    cursor: pointer;
+}
+
+.navigation-button{
+    border: solid black;
+    background-color: darkgreen;
+    color: lime;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
+}
+
+.secret-button {
+    margin-top: 10000px;
+}
+
+.Happyend{
+    width: 100%;
+}
+
+.hint-arrow {
+    margin: auto;
+}
+
+@media screen and (max-width:900px) {
+    .image1 {
+        width: 961px;
+        min-height: 907px;
+        max-height: 907px;
+    }
+    
+    .image2 {
+        width: 1061px;
+        min-height: 707px;
+        max-height: 707px;
+    }
+    
+    .image3 {
+        width: 500px;
+        min-height: 429px;
+        max-height: 429px;
+    }
+
+    
+}
+
+.invisible {
+    visibility: hidden;
+}
