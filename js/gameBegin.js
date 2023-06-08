@@ -79,7 +79,7 @@ function skipButton() {
     }, 45);
     skipClickCount++;
     if (skipClickCount == 2) {
-        window.location = `/html/rooms/room1.html`;
+        window.location = `room1.html`;
     }
 }
 

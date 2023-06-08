@@ -44,7 +44,7 @@ function deathScreen() {
     }, 500);
     setTimeout(() => {
         setTimeout(() => {
-            window.location = `/html/rooms/roomdead.html`;
+            window.location = `roomdead.html`;
         }, 8500);
     }, 3500);
 }
@@ -81,7 +81,7 @@ function keypadCode(event) {
                     setTimeout(() => {
                         keypadScreen.textContent = `Uitgang openen...`;
                         setTimeout(() => {
-                            window.location = `/html/rooms/roomend.html`;
+                            window.location = `roomend.html`;
                         }, 2500);
                     }, 2500);
                 }

@@ -22,7 +22,7 @@ function refreshPage1() {
     dialogueClickCount++;
     if (dialogueClickCount > 1) {
         if (priorityCount > 25) {
-            window.location = `/html/rooms/room1pt2.html`
+            window.location = `room1pt2.html`;
         } else {
             sessionStorage.setItem("dialogCount", JSON.stringify(priorityCount));
             location.reload();
