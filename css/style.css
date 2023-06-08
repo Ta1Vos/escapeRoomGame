@@ -15,8 +15,6 @@ body {
     margin-bottom: 25px;
 }
 
-
-
 .home-btn {
     margin-top: 20px;
     padding: 10px;
@@ -28,6 +26,10 @@ body {
     font-family: 'Courier New', Courier, monospace;
     font-size: 25px;
     transition: 0.5s;
+}
+
+.home-btn-container {
+    margin-top: 40px;
 }
 
 .home-btn:hover {
