@@ -139,7 +139,7 @@ function triggerDialogueEvents(dialogueNumber) {
     if (dialogueNumber < 26) {
         if (dialogueNumber == 7) {
             setTimeout(() => {
-                closedGateImage.style.backgroundImage = 'url(/img/closedgate.jpg)';
+                closedGateImage.style.backgroundImage = 'url(img/closedgate.jpg)';
                 slowType(`Jullie komen aan bij de poort van de gevangenis, maar die is dicht.`, `event`, 25, 8);
                 slowType(`Shair: “Dit was een lange loop, is iedereen er nog?” `, `shair`, 35, 9);
                 slowType(`Quint: “Ja ik zie Tim en jou”`, `quint`, 35, 10);
@@ -149,20 +149,20 @@ function triggerDialogueEvents(dialogueNumber) {
         } else if (dialogueNumber == 12) {
             setTimeout(() => {
                 slowType(`Jullie gaan terug in het bos om hem te zoeken      `, `event`, 50, 13);
-                closedGateImage.style.backgroundImage = 'url(/img/image-island.png)';
+                closedGateImage.style.backgroundImage = 'url(img/image-island.png)';
             }, 1500);
         } else if (dialogueNumber == 13) {
             slowType(`Maar jullie kunnen hem niet vinden. . .  `, `event`, 150, 14);
         } else if (dialogueNumber == 14) {
             setTimeout(() => {
-                closedGateImage.style.backgroundImage = 'url(/img/opendoorgate.png)';
+                closedGateImage.style.backgroundImage = 'url(img/opendoorgate.png)';
                 slowType(`Jullie gaan weer naar de poort en zien dat hij een stukje open is gegaan terwijl jullie gingen zoeken in het bos.   `, `event`, 35, 15);
                 slowType(`Quint: “De poort is open gegaan hoe kan dat nou weer..?”`, `quint`, 35, 16);
                 slowType(`Tim: “Ik weet het ook niet, maar laten we gewoon naar binnen gaan” `, `tim`, 35, 17);
                 slowType(`Shair: “Ja we gaan wel maar wel gek dat Arda weg is en ook ineens die poort open is” `, `shair`, 35, 18);
             }, 1000);
         } else if (dialogueNumber == 18) {
-            closedGateImage.style.backgroundImage = 'url(/img/closedgate.jpg)';
+            closedGateImage.style.backgroundImage = 'url(img/closedgate.jpg)';
             slowType(`Jullie lopen door de poort en kijken om jullie heen en zien hele hoge hekken met schrikkeldraad er boven op. ||
         Jullie komen aan bij een tweede poort...`, `event`, 35, 19);
             slowType(`EN PLOTSELING HOREN JULLIE EEN KEIHARDE KLAP VAN ACHTEREN`, `event`, 15, 20);
