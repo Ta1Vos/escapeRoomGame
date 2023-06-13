@@ -18,7 +18,7 @@
 }
 
 .image1 {
-    background-image: url(../img/image-island.png);
+    background-image: url("../img/image-island.png");
     width: 1261px;
     min-height: 1007px;
     max-height: 1007px;
@@ -27,7 +27,7 @@
 }
 
 .image2 {
-    background-image: url(../img/Central-Hall.jpg);
+    background-image: url("../img/Central-Hall.jpg");
     width: 1261px;
     min-height: 1107px;
     max-height: 1107px;
@@ -36,7 +36,7 @@
 }
 
 .image3 {
-    background-image: url(../img/CodeDoor1.png);
+    background-image: url("../img/CodeDoor1.png");
     width: 1350px;
     min-height: 629px;
     max-height: 629px;
@@ -45,7 +45,7 @@
 }
 
 .image4 {
-    background-image: url(../img/Clue1.png);
+    background-image: url("../img/Clue1.png");
     width: 1003px;
     min-height: 779px;
     max-height: 779px;
@@ -54,7 +54,7 @@
 }
 
 .image5 {
-    background-image: url(../img/Clue2.png);
+    background-image: url("../img/Clue2.png");
     width: 1350px;
     min-height: 629px;
     max-height: 629px;
@@ -63,7 +63,7 @@
 }
 
 .image6 {
-    background-image: url(../img/WingB.jpg);
+    background-image: url("../img/WingB.jpg");
     width: 1261px;
     height: 1007px;
     float: right;
@@ -71,7 +71,7 @@
 }
 
 .image7 {
-    background-image: url(../img/PrisonCell1.png);
+    background-image: url("../img/PrisonCell1.png");
     width: 1300px;
     height: 867px;
     float: right;
