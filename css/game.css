@@ -59,7 +59,7 @@ body {
 }
 
 .island-image {
-    background-image: url(/img/image-island.png);
+    background-image: url(../img/image-island.png);
     width: 450px;
     height: 610px;
     margin: auto;
